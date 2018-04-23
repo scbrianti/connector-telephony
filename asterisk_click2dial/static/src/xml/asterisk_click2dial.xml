@@ -17,7 +17,7 @@
     <!-- Add Dial button in phone widget for click2dial feature -->
     <t t-extend="FieldPhone">
         <t t-jquery="a.o_form_uri" t-operation="after">
-            <a t-if="widget.clickable" id="click2dial" href="#" class="oe_bold fa fa-phone-square"/>
+            <i t-if="widget.clickable" id="click2dial" class="fa fa-phone-square"/>
         </t>
     </t>
 
